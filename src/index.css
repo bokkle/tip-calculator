@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1599458252573-56ae36120de1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 40px;
+  box-shadow: 0 0 5px #242424;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.total {
+  padding-top: 20px;
+  color: ghostwhite;
+}
+
+p {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 8px;
+  color: ghostwhite;
+}
+
+select,
+input {
+  font-size: 16px;
+  padding: 8px;
+  width: 90%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 18px;
+  border: 1px solid #242424;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: ghostwhite;
+  background-color: darkorchid;
+  cursor: pointer;
+  transition: all 100ms ease;
+}
+
+button:hover {
+  background-color: rgb(220, 63, 220);
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
