@@ -16,6 +16,9 @@
 .card {
   padding: 40px;
   box-shadow: 0 0 5px #242424;
+  width: 540px;
+  max-width: 540px;
+  min-height: 460px;
   text-align: center;
   background: rgba(0, 0, 0, 0.45);
   border-radius: 16px;
